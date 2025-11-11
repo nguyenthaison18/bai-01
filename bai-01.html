@@ -1,10 +1,27 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>DiemTrungBinh</title>
 </head>
 <body>
-$END$
+
 </body>
 </html>
+<script>
+    let vatly= parseFloat(prompt("Nhap Diem Vat Ly"));
+    let hoahoc= parseFloat(prompt("Nhap Diem Hoa Hoc"));
+    let sinhhoc= parseFloat(prompt("Nhap Diem Sinh Hoc"));
+    let tong= vatly + hoahoc + sinhhoc;
+    let trungbinh= tong / 3;
+    document.write("Tổng điểm: " + tong + "<br>");
+    document.write("Điểm trung bình: " + trungbinh);
+
+
+
+
+
+</script>
