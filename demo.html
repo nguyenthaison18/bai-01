@@ -1,10 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <title>Title</title>
 </head>
 <body>
-$END$
+<form>
+    <label>Amound:</label>
+    <input type="number" name="amount" id="amount" value="0.0"/>
+    <label>From Currency:</label>
+    <select id="currency" name="currency">
+        <option value="USD">USD</option>
+        <option value="VND">VND</option>
+    </select>
+    <label>To Currency:</label>
+    <select id="currency1" name="currency1">
+        <option value="USD">USD</option>
+        <option value="VND">VND</option>
+    </select>
+    <button type="button" value="Convert" onclick="doitien()">click</button>
+    <p id="ketqua">Result:</p>
+</form>
+
+<script src="convert.js"></script>
 </body>
 </html>
